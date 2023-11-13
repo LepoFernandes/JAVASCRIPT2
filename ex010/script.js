@@ -26,18 +26,18 @@ while(escolha !== "4"){
 
 function acelerar(){
     let novaVel = velocidadeI + aceleracao
-    alert(`Nova velocidade : ${novaVel}`)
+    alert(`Nova velocidade : ${novaVel}km/h`)
     velocidadeI = novaVel
 }
 
 function desacelerar(){
     let novaVel = velocidadeI - aceleracao
-    alert(`Nova velocidade: ${novaVel}`)
+    alert(`Nova velocidade: ${novaVel}km/h`)
     velocidadeI = novaVel
 }
 
 function exibir(){
-    alert(`Olá ${nomeNave}, sua velocidade atual é de ${velocidadeI}`)
+    alert(`Olá ${nomeNave}, sua velocidade atual é de ${velocidadeI}km/h`)
 }
 
 function encerrar(){
